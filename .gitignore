@@ -2,3 +2,8 @@
 sealed-secrets-secret.yaml
 cloud-dns-credentials.yaml
 alertmanager.yaml
+alertmanager-example.yaml
+*.DELETE
+*.NOCOMMIT
+*.EXAMPLE
+
