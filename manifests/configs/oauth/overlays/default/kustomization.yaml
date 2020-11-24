@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+  - https://github.com/redhat-canada-gitops/catalog/oauth/overlays/htpass
+
+resources:
+  - sealed-htpasswd.yaml
+
+patchesStrategicMerge:
+  - patch-htpass-secret.yaml
