@@ -1,0 +1,19 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: namespace-configuration-operator
+
+commonAnnotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+
+bases:
+  - github.com/85matthew/catalog/namespace-configuration-operator/base
+
+resources:
+- namespace.yaml
+- operator-group.yaml
+- small-ns-config.yaml
+- medium-ns-config.yaml
+- large-ns-config.yaml
+- multitenant.yaml
+- patch-default-ns-multitenant.yaml
