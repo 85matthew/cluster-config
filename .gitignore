@@ -1,3 +1,4 @@
+.idea/
 sealed-secrets-secret.yaml
 cloud-dns-credentials.yaml
 alertmanager.yaml
