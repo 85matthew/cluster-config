@@ -19,7 +19,7 @@ spec:
   source:
     path: web-terminal-operator/overlays/aggregate
     repoURL: https://github.com/85matthew/catalog.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: false

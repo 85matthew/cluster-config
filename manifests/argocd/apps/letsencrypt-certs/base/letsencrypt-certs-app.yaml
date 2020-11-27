@@ -14,7 +14,7 @@ spec:
   source:
     path: manifests/apps/letsencrypt-certs/overlays/default
     repoURL: https://github.com/gnunn-gitops/cluster-config.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: false

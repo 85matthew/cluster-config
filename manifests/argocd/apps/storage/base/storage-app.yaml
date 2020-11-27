@@ -15,7 +15,7 @@ spec:
   source:
     path: manifests/configs/storage/base
     repoURL: https://github.com/85matthew/cluster-config.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: false
