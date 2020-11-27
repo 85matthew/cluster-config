@@ -4,15 +4,13 @@ kind: Kustomization
 commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
-#bases:
-#  - github.com/85matthew/catalog/namespace-configuration-operator/base
-#  - github.com/85matthew/catalog/installplan-approver/base
+bases:
+  - github.com/85matthew/catalog/namespace-configuration-operator/base
+  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
 - namespace.yaml
 - operator-group.yaml
-- github.com/85matthew/catalog/namespace-configuration-operator/base
-- github.com/85matthew/catalog/installplan-approver/base
 - small-ns-config.yaml
 - medium-ns-config.yaml
 - large-ns-config.yaml
