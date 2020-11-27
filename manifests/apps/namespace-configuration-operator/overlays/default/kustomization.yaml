@@ -4,6 +4,8 @@ kind: Kustomization
 commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
+namespace: namespace-configuration-operator
+
 resources:
 - namespace.yaml
 - operator-group.yaml
