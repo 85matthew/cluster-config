@@ -2,7 +2,6 @@ apiVersion: redhatcop.redhat.io/v1alpha1
 kind: NamespaceConfig
 metadata:
   name: multitenant
-  namespace: namespace-configuration-operator
 spec:
   labelSelector:
     matchLabels:
