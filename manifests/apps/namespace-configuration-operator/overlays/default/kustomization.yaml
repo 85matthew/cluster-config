@@ -7,11 +7,11 @@ commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 bases:
-  - github.com/85matthew/catalog/namespace-configuration-operator/base
+  - github.com/85matthew/catalog/namespace-configuration-operator/overlays/default/q
 
 resources:
-- namespace.yaml
-- operator-group.yaml
+#- namespace.yaml
+#- operator-group.yaml
 - small-ns-config.yaml
 - medium-ns-config.yaml
 - large-ns-config.yaml
