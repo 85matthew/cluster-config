@@ -11,9 +11,9 @@ commonAnnotations:
 #  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
+- namespace.yaml
 - github.com/85matthew/catalog/namespace-configuration-operator/base
 - github.com/85matthew/catalog/installplan-approver/base
-- namespace.yaml
 - operator-group.yaml
 - small-ns-config.yaml
 - medium-ns-config.yaml
