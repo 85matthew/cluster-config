@@ -14,7 +14,7 @@ spec:
   source:
     path: pipelines-operator/overlays/preview
     repoURL: https://github.com/85matthew/catalog.git
-    targetRevision: main
+    targetRevision: master
   syncPolicy:
     automated:
       prune: false
