@@ -13,7 +13,7 @@ spec:
   project: cluster-config
   source:
     path: manifests/configs/consolelinks/base
-    repoURL: https://github.com/gnunn-gitops/cluster-config.git
+    repoURL: https://github.com/85matthew/cluster-config.git
     targetRevision: main
   syncPolicy:
     automated:
