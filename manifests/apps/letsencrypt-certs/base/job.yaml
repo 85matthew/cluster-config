@@ -21,9 +21,10 @@ spec:
               #!/usr/bin/env bash
               
               echo "Wait a few seconds for the secret to unseal."
-              sleep 10              
+              sleep 1
               pwd
-              ls -l scripts
+              echo awspath=$(which aws)
+              ls -l /scripts
               whoami
               /scripts/aws.sh
 
