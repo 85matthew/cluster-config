@@ -17,5 +17,4 @@ patchesJson6902:
   - target:
       kind: Job
       name: letsencrypt-certificates-job
-      namespace: letsencrypt-job
     path: patch-job.yaml
