@@ -15,7 +15,6 @@ patchesStrategicMerge:
 
 patchesJson6902:
   - target:
-      version: v1
       kind: Job
       name: letsencrypt-certificates-job
       namespace: letsencrypt-job
