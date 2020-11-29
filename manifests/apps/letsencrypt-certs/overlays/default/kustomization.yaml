@@ -15,6 +15,7 @@ patchesStrategicMerge:
 
 patchesJson6902:
   - target:
+      group: batch
       version: v1
       kind: Job
       name: letsencrypt-certificates-job
