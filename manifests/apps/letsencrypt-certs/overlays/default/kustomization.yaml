@@ -5,16 +5,17 @@ kind: Kustomization
 namespace: letsencrypt-job
 
 bases:
-- github.com/85matthew/catalog/letsencrypt-certs/base
+  - ../../base
+#- github.com/85matthew/catalog/letsencrypt-certs/base
 
 patchesStrategicMerge:
   - patch-job-serviceaccount.yaml
 
-patchesJson6902:
-  - target:
-      group: batch
-      version: v1
-      kind: Job
-      name: letsencrypt-certificates-job
-      namespace: letsencrypt-job
-    path: patch-job.yaml
+#patchesJson6902:
+#  - target:
+#      group: batch
+#      version: v1
+#      kind: Job
+#      name: letsencrypt-certificates-job
+#      namespace: letsencrypt-job
+#    path: patch-job.yaml
