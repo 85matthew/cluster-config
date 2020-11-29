@@ -5,7 +5,7 @@ kind: Kustomization
 namespace: letsencrypt-job
 
 bases:
-- github.com/85matthew/catalog/letsencrypt-certs/base
+- github.com/85matthew/catalog/letsencrypt-certs/base2
 
 patchesStrategicMerge:
   - patch-job-serviceaccount.yaml
