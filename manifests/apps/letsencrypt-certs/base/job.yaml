@@ -23,7 +23,7 @@ spec:
               echo "Wait a few seconds for the secret to unseal."
               sleep 10              
               pwd
-              ls -l
+              ls -l scripts
               /scripts/aws.sh
 
               echo "Creating openid cert secret from OpenShift router cert."
