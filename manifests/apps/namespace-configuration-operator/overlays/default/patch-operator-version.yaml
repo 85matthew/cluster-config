@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/startingCSV
+  value: namespace-configuration-operator.v0.2.5
