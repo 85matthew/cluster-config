@@ -7,9 +7,6 @@ namespace: letsencrypt-job
 bases:
 - github.com/85matthew/catalog/letsencrypt-certs/base
 
-resources:
-  - sealed-cloud-dns-credentials.yaml
-
 patchesStrategicMerge:
   - patch-job-serviceaccount.yaml
 
