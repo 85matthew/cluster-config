@@ -19,6 +19,7 @@ patchesJson6902:
       version: v1
       kind: Job
       name: letsencrypt-certificates-job
+      namespace: letsencrypt-job
 #    patch: |-
       #- op: remove
 #        path: /spec/template/spec/containers/0/envFrom
