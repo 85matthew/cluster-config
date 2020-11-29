@@ -25,6 +25,7 @@ spec:
               pwd
               ls -l scripts
               /scripts/aws.sh
+              whoami
 
               echo "Creating openid cert secret from OpenShift router cert."
 
