@@ -5,13 +5,13 @@ metadata:
 spec:
   identityProviders:
     - name: htpasswd_provider
-        challenge: true
-        login: true
-        mappingMethod: claim
-        type: HTPasswd
-        htpasswd:
-          fileData:
-            name: htpass-secret
+      challenge: true
+      login: true
+      mappingMethod: claim
+      type: HTPasswd
+      htpasswd:
+        fileData:
+          name: htpass-secret
     - name: githubidp
       mappingMethod: claim
       type: GitHub
