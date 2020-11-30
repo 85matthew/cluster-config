@@ -1,5 +1,9 @@
 .idea/
-sealed-secrets-secret.yaml
+environments/overlays/bootstrap/sealed-secrets-secret.yaml.OLD
+alertmanager-config.yaml
+alertmanager-main-secret.yaml
+github-secret.yaml
+
 cloud-dns-credentials.yaml
 alertmanager.yaml
 alertmanager-example.yaml
