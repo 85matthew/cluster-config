@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: config-clusterlogging-operator
   annotations:
-    argocd.argoproj.io/sync-wave: "21"
+    argocd.argoproj.io/sync-wave: "11"
   labels:
     gitops.ownedBy: cluster-config
 spec:
