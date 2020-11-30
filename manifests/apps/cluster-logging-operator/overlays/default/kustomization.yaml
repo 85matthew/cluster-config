@@ -6,6 +6,7 @@ namespace: openshift-operators
 
 bases:
   - github.com/85matthew/catalog/cluster-logging-operator/base
+  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
   - namespace.yaml
