@@ -14,7 +14,7 @@ spec:
       mappingMethod: claim
       type: GitHub
       github:
-        clientID: https://oauth-openshift.apps.naps.rhnaps.io/oauth2callback/github
+        clientID: a4d18613a624ada06d37
         clientSecret:
           name: github-oath-integration
         teams:
