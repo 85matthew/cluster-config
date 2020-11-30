@@ -1,0 +1,15 @@
+# Install Elasticsearch Operator.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: openshift-operators
+
+bases:
+  - https://github.com/85matthew/catalog/elasticsearch-operator/base
+
+resources:
+  - namespace.yaml
+  - operatorgroup.yaml
+
+#patchesStrategicMerge:
+#  - patch-scansetting.yaml
