@@ -17,7 +17,8 @@ bases:
 - ../../../manifests/argocd/apps/github-oath-integration/base
 - ../../../manifests/argocd/apps/elasticsearch-operator/base
 - ../../../manifests/argocd/apps/cluster-logging-operator/base
-- ../../../manifests/argocd/apps/cluster-logging-config/base
+# Disabling this because it requires 3 ES nodes with 16GB RAM
+#- ../../../manifests/argocd/apps/cluster-logging-config/base
 
 patches:
 - target:
