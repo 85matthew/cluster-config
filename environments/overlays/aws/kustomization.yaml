@@ -16,7 +16,8 @@ bases:
 - ../../../manifests/argocd/apps/namespace-configuration-operator/base
 - ../../../manifests/argocd/apps/github-oath-integration/base
 - ../../../manifests/argocd/apps/elasticsearch-operator/base
-- ../../../manifests/argocd/apps/clusterlogging-operator/base
+- ../../../manifests/argocd/apps/cluster-logging-operator/base
+- ../../../manifests/argocd/apps/cluster-logging-config/base
 
 patches:
 - target:
