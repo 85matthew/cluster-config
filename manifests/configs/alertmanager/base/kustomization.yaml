@@ -5,4 +5,3 @@ resources:
 - annotate-secret-job.yaml
 - annotate-secret-sa.yaml
 - sealed-alertmanager-main-secret.yaml
-#- alertmanager-main-secret-sealed.yaml
