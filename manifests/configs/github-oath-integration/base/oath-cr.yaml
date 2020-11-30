@@ -1,0 +1,15 @@
+apiVersion: config.openshift.io/v1
+kind: OAuth
+metadata:
+  name: cluster
+spec:
+  identityProviders:
+    - name: githubidp
+      mappingMethod: claim
+      type: GitHub
+      github:
+        clientID: https://oauth-openshift.apps.naps.rhnaps.io/oauth2callback/github
+        clientSecret:
+          name: github-oath-integration
+        teams:
+          - redhatgov/aws_infrastructure
