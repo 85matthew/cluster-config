@@ -1,6 +1,7 @@
-# Github secret for oath integration
+# Github Integration for OpenShift
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
   - sealed-github-secret.yaml
+  - oath-cr.yaml
