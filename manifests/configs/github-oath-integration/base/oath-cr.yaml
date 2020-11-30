@@ -18,4 +18,4 @@ spec:
         clientSecret:
           name: github-oath-integration
         teams:
-          - redhatgov/aws_infrastructure
+          - RedHatGov/aws_infrastructure
