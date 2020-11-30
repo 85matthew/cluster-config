@@ -12,7 +12,7 @@ spec:
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
-    path: elasticsearch-operator/overlays/default
+    path: manifests/apps/elasticsearch-operator/overlays/default
     repoURL: https://github.com/85matthew/cluster-config.git
     targetRevision: main
   syncPolicy:
