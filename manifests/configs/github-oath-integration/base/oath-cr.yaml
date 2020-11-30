@@ -10,7 +10,7 @@ spec:
       htpasswd:
         fileData:
           name: htpass-secret
-    - name: githubidp
+    - name: github
       mappingMethod: claim
       type: GitHub
       github:
