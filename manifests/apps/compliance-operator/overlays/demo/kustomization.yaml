@@ -4,8 +4,9 @@ kind: Kustomization
 
 namespace: openshift-operators
 
-resources:
-- https://github.com/85matthew/catalog/compliance-operator/overlays/demo
+bases:
+  - github.com/85matthew/catalog/compliance-operator/base
 
-#patchesStrategicMerge:
-#  - patch-scansetting.yaml
+resources:
+  - demo-scan-setting.yaml
+  - demo-scan-setting-binding.yaml
