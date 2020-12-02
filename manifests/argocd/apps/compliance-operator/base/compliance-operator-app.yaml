@@ -13,7 +13,7 @@ spec:
   project: cluster-config
   source:
     path: manifests/apps/compliance-operator/overlays/demo
-    repoURL: https://github.com/85matthew/catalog.git
+    repoURL: https://github.com/85matthew/cluster-config.git
     targetRevision: main
   syncPolicy:
     automated:
