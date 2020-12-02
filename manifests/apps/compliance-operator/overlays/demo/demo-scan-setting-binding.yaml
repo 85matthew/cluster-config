@@ -4,9 +4,11 @@ metadata:
   name: demo-compliance-requirements
   namespace: openshift-operators
 profiles:
+  # Node Checks
   - apiGroup: compliance.openshift.io/v1alpha1
     kind: Profile
     name: rhcos4-moderate
+  # Cluster Checks
   - apiGroup: compliance.openshift.io/v1alpha1
     kind: Profile
     name: ocp4-moderate
