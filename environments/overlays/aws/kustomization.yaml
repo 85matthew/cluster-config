@@ -15,6 +15,7 @@ bases:
 - ../../../manifests/argocd/apps/groups-and-membership/base
 - ../../../manifests/argocd/apps/namespace-configuration-operator/base
 - ../../../manifests/argocd/apps/github-oath-integration/base
+- ../../../manifests/argocd/apps/compliance-operator/base
 
 
 
