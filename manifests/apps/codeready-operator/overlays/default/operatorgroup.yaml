@@ -3,6 +3,6 @@ kind: OperatorGroup
 metadata:
   name: openshift-workspaces
   namespace: openshift-workspaces
-spec
+spec:
   targetNamespaces:
     - openshift-workspaces
