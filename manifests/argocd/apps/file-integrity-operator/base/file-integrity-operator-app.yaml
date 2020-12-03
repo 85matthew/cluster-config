@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: config-container-security
+  name: config-file-integrity
   annotations:
     argocd.argoproj.io/sync-wave: "21"
   labels:
