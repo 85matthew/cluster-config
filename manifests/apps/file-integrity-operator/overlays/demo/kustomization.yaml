@@ -10,6 +10,5 @@ commonAnnotations:
 bases:
   - github.com/85matthew/catalog/file-integrity-operator/base
 
-#resources:
-#  - demo-scan-setting.yaml
-#  - demo-scan-setting-binding.yaml
+resources:
+  - file-integrity-setting.yaml
