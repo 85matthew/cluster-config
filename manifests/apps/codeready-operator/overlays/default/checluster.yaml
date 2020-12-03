@@ -4,7 +4,8 @@ metadata:
   name: codeready-workspaces
 spec:
   auth:
-    externalIdentityProvider: false
+    externalIdentityProvider: true
+    openShiftoAuth: true
   database:
     externalDb: false
   server:
