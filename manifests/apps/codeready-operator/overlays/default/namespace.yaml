@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   name: openshift-workspaces
   annotations:
-    annotations.openshift.io/node-selector: ""
+#    annotations.openshift.io/node-selector: ""
   labels:
     openshift.io/cluster-monitoring: "true"
