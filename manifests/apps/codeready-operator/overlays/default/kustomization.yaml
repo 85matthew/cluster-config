@@ -9,3 +9,4 @@ bases:
 resources:
   - namespace.yaml
   - operatorgroup.yaml
+  - checluster.yaml
