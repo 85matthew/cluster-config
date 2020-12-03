@@ -17,6 +17,7 @@ bases:
 - ../../../manifests/argocd/apps/github-oath-integration/base
 - ../../../manifests/argocd/apps/compliance-operator/base
 - ../../../manifests/argocd/apps/file-integrity-operator/base
+- ../../../manifests/argocd/apps/codeready-operator/base
 
 
 
