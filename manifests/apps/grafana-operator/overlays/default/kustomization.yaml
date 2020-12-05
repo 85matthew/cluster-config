@@ -7,13 +7,13 @@ commonAnnotations:
 namespace: grafana
 
 bases:
-- github.com/85matthew/catalog/grafana-operator/base/operator
-- github.com/85matthew/catalog/grafana-operator/base/instance
+  - github.com/85matthew/catalog/grafana-operator/base/operator
+  - github.com/85matthew/catalog/grafana-operator/base/instance
 
 resources:
   - namespace.yaml
   - operator-group.yaml
-  - cluster-role.yaml
+#  - cluster-role.yaml
 
 patchesJson6902:
   - target:
