@@ -4,7 +4,8 @@ kind: Kustomization
 commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
-namespace: grafana
+namespace: openshift-user-workload-monitoring
+#namespace: grafana
 
 bases:
   - github.com/85matthew/catalog/grafana-operator/base/operator
