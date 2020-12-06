@@ -14,6 +14,9 @@ resources:
   - namespace.yaml
   - operator-group.yaml
 #  - cluster-role.yaml
+  - grafana-ds.yaml
+  - patch-grafana-ds-job.yaml
+  - patch-grafana-ds-sa.yaml
 
 patchesJson6902:
   - target:
