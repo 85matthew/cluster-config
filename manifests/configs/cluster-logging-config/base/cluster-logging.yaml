@@ -15,7 +15,7 @@ spec:
       audit:
         maxAge: 7d
     elasticsearch:
-      nodeCount: 3
+      nodeCount: 1
 #      storage:
 #        storageClassName: "<non-ephemeral-storage-class-name>"
 #        size: 200G
