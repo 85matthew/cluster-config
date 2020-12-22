@@ -20,6 +20,8 @@ bases:
 - ../../../manifests/argocd/apps/codeready-operator/base
 - ../../../manifests/argocd/apps/grafana-operator/base
 - ../../../manifests/argocd/apps/prometheus-user-app/base
+- ../../../manifests/argocd/apps/virtualization-operator/base
+
 
 
 
