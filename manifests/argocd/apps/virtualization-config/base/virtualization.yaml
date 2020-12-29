@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: virtualization
   annotations:
-    argocd.argoproj.io/sync-wave: "20"
+    argocd.argoproj.io/sync-wave: "21"
   labels:
     gitops.ownedBy: cluster-config
 spec:
@@ -12,7 +12,7 @@ spec:
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
-    path: manifests/apps/virtualization-operator/overlays/default
+    path: manifests/config/virtualization/overlays/default
     repoURL: https://github.com/85matthew/cluster-config.git
     targetRevision: main
   syncPolicy:
