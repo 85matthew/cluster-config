@@ -4,5 +4,5 @@ kind: Kustomization
 bases:
   - github.com/85matthew/catalog/virtualization-operator/base
 
-patchesStrategicMerge:
-  - patch.yaml
+#patchesStrategicMerge:
+#  - patch.yaml
