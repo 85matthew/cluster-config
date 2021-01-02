@@ -19,7 +19,7 @@ bases:
   #- ../../../manifests/argocd/apps/oauth/base
 #- ../../../manifests/argocd/apps/pipelines-operator/base
 #- ../../../manifests/argocd/apps/prometheus-user-app/base
-#- ../../../manifests/argocd/apps/sealed-secrets-operator/base
+- ../../../manifests/argocd/apps/sealed-secrets-operator/base
 #- ../../../manifests/argocd/apps/virtualization-config/base
 #- ../../../manifests/argocd/apps/virtualization-operator/base
 - ../../../manifests/argocd/apps/web-terminal-operator/base
