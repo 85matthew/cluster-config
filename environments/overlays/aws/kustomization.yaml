@@ -4,24 +4,25 @@ kind: Kustomization
 namespace: argocd
 
 bases:
-- ../../../manifests/argocd/apps/sealed-secrets-operator/base
-- ../../../manifests/argocd/apps/letsencrypt-certs/base
 - ../../../manifests/argocd/apps/alertmanager/base
-- ../../../manifests/argocd/apps/console-links/base
-#- ../../../manifests/argocd/apps/oauth/base
-- ../../../manifests/argocd/apps/container-security-operator/base
-- ../../../manifests/argocd/apps/pipelines-operator/base
-- ../../../manifests/argocd/apps/web-terminal-operator/base
-- ../../../manifests/argocd/apps/groups-and-membership/base
-- ../../../manifests/argocd/apps/namespace-configuration-operator/base
-- ../../../manifests/argocd/apps/github-oath-integration/base
-- ../../../manifests/argocd/apps/compliance-operator/base
-- ../../../manifests/argocd/apps/file-integrity-operator/base
 - ../../../manifests/argocd/apps/codeready-operator/base
+- ../../../manifests/argocd/apps/compliance-operator/base
+- ../../../manifests/argocd/apps/console-links/base
+- ../../../manifests/argocd/apps/container-security-operator/base
+- ../../../manifests/argocd/apps/file-integrity-operator/base
+- ../../../manifests/argocd/apps/github-oath-integration/base
 - ../../../manifests/argocd/apps/grafana-operator/base
+- ../../../manifests/argocd/apps/groups-and-membership/base
+  #- ../../../manifests/argocd/apps/jenkins-operator/base
+- ../../../manifests/argocd/apps/letsencrypt-certs/base
+- ../../../manifests/argocd/apps/namespace-configuration-operator/base
+  #- ../../../manifests/argocd/apps/oauth/base
+- ../../../manifests/argocd/apps/pipelines-operator/base
 - ../../../manifests/argocd/apps/prometheus-user-app/base
-- ../../../manifests/argocd/apps/virtualization-operator/base
+- ../../../manifests/argocd/apps/sealed-secrets-operator/base
 - ../../../manifests/argocd/apps/virtualization-config/base
+- ../../../manifests/argocd/apps/virtualization-operator/base
+- ../../../manifests/argocd/apps/web-terminal-operator/base
 
 
 
