@@ -6,6 +6,9 @@ namespace: openshift-workspaces
 bases:
   - github.com/85matthew/catalog/codeready-operator/base
 
+commonAnnotations:
+  argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+
 resources:
   - namespace.yaml
   - operatorgroup.yaml
