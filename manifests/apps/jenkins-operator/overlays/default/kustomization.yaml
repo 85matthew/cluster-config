@@ -6,6 +6,7 @@ commonAnnotations:
 
 bases:
   - github.com/85matthew/catalog/jenkins-operator/base
+  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
   - namespace.yaml
