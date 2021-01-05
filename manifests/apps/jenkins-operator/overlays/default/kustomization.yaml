@@ -4,6 +4,8 @@ kind: Kustomization
 commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
+namespace: jenkins-operator-system
+
 bases:
   - github.com/85matthew/catalog/jenkins-operator/base
   - github.com/85matthew/catalog/installplan-approver/base
