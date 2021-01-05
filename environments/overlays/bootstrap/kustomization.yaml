@@ -3,6 +3,8 @@ kind: Kustomization
 
 bases:
 - ../../../manifests/argocd/project/cluster-config/base
+- github.com/85matthew/argocd/argocd-operator/overlays/default
+- github.com/85matthew/argocd/argocd/overlays/default
 
 resources:
 - sealed-secrets-namespace.yaml
