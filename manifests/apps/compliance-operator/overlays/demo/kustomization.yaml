@@ -1,4 +1,4 @@
-# Compliance Operator installation and demo scan v2
+# Compliance Operator installation and demo scan
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
@@ -9,6 +9,7 @@ commonAnnotations:
 
 bases:
   - github.com/85matthew/catalog/compliance-operator/base
+  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
   - demo-scan-setting.yaml
