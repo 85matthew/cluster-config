@@ -22,7 +22,7 @@ bases:
 - ../../../manifests/argocd/apps/sealed-secrets-operator/base
 #- ../../../manifests/argocd/apps/virtualization-config/base
 #- ../../../manifests/argocd/apps/virtualization-operator/base
-- ../../../manifests/argocd/apps/web-terminal-operator/base
+#- ../../../manifests/argocd/apps/web-terminal-operator/base
 
 
 
