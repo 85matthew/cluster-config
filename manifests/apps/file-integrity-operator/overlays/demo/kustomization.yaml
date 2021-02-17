@@ -12,3 +12,4 @@ bases:
 
 resources:
   - file-integrity-setting.yaml
+  - namespace.yaml
