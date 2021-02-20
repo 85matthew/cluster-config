@@ -29,5 +29,5 @@ webhooks:
         resources:
           - pods
         scope: '*'
-    sideEffects: Unknown
+    sideEffects: None
     timeoutSeconds: 30
