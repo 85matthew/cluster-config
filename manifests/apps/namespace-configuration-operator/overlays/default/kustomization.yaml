@@ -18,10 +18,10 @@ resources:
 - multitenant.yaml
 - patch-default-ns-multitenant.yaml
 
-patchesJson6902:
-  - target:
-      group: operators.coreos.com
-      kind: Subscription
-      name: namespace-configuration-operator
-      version: v1alpha1
-    path: patch-operator-version.yaml
+#patchesJson6902:
+#  - target:
+#      group: operators.coreos.com
+#      kind: Subscription
+#      name: namespace-configuration-operator
+#      version: v1alpha1
+#    path: patch-operator-version.yaml
