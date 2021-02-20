@@ -3,5 +3,4 @@ kind: OperatorGroup
 metadata:
   name: namespace-configuration-operator
 spec:
-  targetNamespaces:
-    - sealed-secrets
+  targetNamespaces: []
