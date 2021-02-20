@@ -1,0 +1,15 @@
+# Assumes the cluster admin had pre-created the sealed-secrets project and secret.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: pod-identity-webhook-custom
+
+resources:
+  - github.com/85matthew/catalog/installplan-approver/base
+
+patchesStrategicMerge:
+  - auth.yaml
+  - cluster-authentication.yaml
+  - namespace.yaml
+  - service.yaml
+  -

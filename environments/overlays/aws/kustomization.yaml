@@ -5,6 +5,7 @@ namespace: argocd
 
 bases:
 - ../../../manifests/argocd/apps/alertmanager/base
+- ../../../manifests/argocd/apps/aws-iam-integration/base
 - ../../../manifests/argocd/apps/codeready-operator/base
 - ../../../manifests/argocd/apps/compliance-operator/base
 - ../../../manifests/argocd/apps/console-links/base
