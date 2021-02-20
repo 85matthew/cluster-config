@@ -9,7 +9,7 @@ commonAnnotations:
 
 bases:
   - github.com/85matthew/catalog/compliance-operator/base
-  - github.com/85matthew/catalog/installplan-approver/base
+#  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
   - demo-scan-setting.yaml
