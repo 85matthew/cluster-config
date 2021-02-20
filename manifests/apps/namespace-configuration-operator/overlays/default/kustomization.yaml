@@ -8,7 +8,6 @@ namespace: namespace-configuration-operator
 
 bases:
   - github.com/85matthew/catalog/namespace-configuration-operator/base
-  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
 - namespace.yaml
