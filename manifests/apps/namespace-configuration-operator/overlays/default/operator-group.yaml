@@ -4,4 +4,4 @@ metadata:
   name: namespace-configuration-operator
 spec:
   targetNamespaces:
-    - namespace-configuration-operator
+    - sealed-secrets
