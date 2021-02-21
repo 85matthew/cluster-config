@@ -10,5 +10,5 @@ resources:
   - deployment.yaml
   - mutating-webhook.yaml
   - namespace.yaml
-  - sealed-next-bound-service-account-signing-key.yaml
+#  - sealed-next-bound-service-account-signing-key.yaml
   - service.yaml
