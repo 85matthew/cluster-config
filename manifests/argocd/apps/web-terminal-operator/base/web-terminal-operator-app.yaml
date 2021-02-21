@@ -17,7 +17,7 @@ spec:
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
-    path: web-terminal-operator/overlays/aggregate
+    path: web-terminal-operator/base/operator
     repoURL: https://github.com/85matthew/catalog.git
     targetRevision: main
   syncPolicy:
