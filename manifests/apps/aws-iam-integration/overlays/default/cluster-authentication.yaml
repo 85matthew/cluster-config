@@ -4,5 +4,6 @@ metadata:
   annotations:
     release.openshift.io/create-only: "true"
   name: cluster
+  namespace: pod-identity-webhook-custom
 spec:
   serviceAccountIssuer: https://s3.us-east-1.amazonaws.com/napsocp2iam
