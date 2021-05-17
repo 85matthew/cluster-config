@@ -4,11 +4,15 @@ kind: Kustomization
 
 #namespace: pod-identity-webhook-custom
 
+#bases:
+#  - github.com/85matthew/catalog/installplan-approver/base
+
 resources:
   - auth.yaml
   - cluster-authentication.yaml
   - deployment.yaml
-  - mutating-webhook.yaml
+#  - mutating-webhook.yaml
   - namespace.yaml
 #  - sealed-next-bound-service-account-signing-key.yaml
   - service.yaml
+  - github.com/85matthew/catalog/installplan-approver/base
