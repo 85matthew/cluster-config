@@ -16,6 +16,7 @@ bases:
 - ../../../manifests/argocd/apps/groups-and-membership/base
   #- ../../../manifests/argocd/apps/jenkins-operator/base
 - ../../../manifests/argocd/apps/letsencrypt-certs/base
+- github.com/85matthew/catalog/letsencrypt-certs/base
 - ../../../manifests/argocd/apps/namespace-configuration-operator/base
   #- ../../../manifests/argocd/apps/oauth/base
 - ../../../manifests/argocd/apps/pipelines-operator/base
@@ -27,12 +28,14 @@ bases:
 - ../../../manifests/argocd/apps/htpasswd/base
 
 
-
-
 # Disabling this because it requires 3 ES nodes with 16GB RAM
 #- ../../../manifests/argocd/apps/elasticsearch-operator/base
 #- ../../../manifests/argocd/apps/cluster-logging-operator/base
 #- ../../../manifests/argocd/apps/cluster-logging-config/base
+
+
+resources:
+  - secret.yaml
 
 patches:
 - target:

@@ -7,13 +7,13 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/85matthew/ocp-letsencrypt-with-iam:latest
+        - image: quay.io/85matthew/ocp-acme:latest
           env:
             - name: STAGING
               value: 'false'
-#          envFrom:
-#            - secretRef:
-#                name: cloud-dns-credentials
+          envFrom:
+            - secretRef:
+                name: cloud-dns-credentials
           command:
             - /bin/bash
             - -c
