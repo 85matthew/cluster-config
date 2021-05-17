@@ -12,3 +12,4 @@ alertmanager-example.yaml
 *.EXAMPLE
 manifests/apps/aws-iam-integration/overlays/default/next-bound-service-account-signing-key.yaml
 manifests/configs/htpasswd/base/htpass-secret.yaml
+environments/overlays/aws/secret.yaml
