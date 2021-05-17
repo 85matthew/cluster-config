@@ -10,4 +10,5 @@ alertmanager-example.yaml
 *.DELETE
 *.NOCOMMIT
 *.EXAMPLE
-
+manifests/apps/aws-iam-integration/overlays/default/next-bound-service-account-signing-key.yaml
+manifests/configs/htpasswd/base/htpass-secret.yaml
