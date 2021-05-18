@@ -33,10 +33,6 @@ bases:
 #- ../../../manifests/argocd/apps/cluster-logging-operator/base
 #- ../../../manifests/argocd/apps/cluster-logging-config/base
 
-
-resources:
-  - sealed.secret.yaml
-
 patches:
 - target:
     group: argoproj.io
