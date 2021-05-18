@@ -6,6 +6,10 @@ namespace: letsencrypt-job
 
 bases:
   - ../../base
+
+resources:
+  - sealed.secret.yaml
+  -
 #- github.com/85matthew/catalog/letsencrypt-certs/base
 
 #patchesStrategicMerge:
