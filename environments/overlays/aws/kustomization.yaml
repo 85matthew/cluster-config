@@ -16,7 +16,7 @@ bases:
 - ../../../manifests/argocd/apps/groups-and-membership/base
   #- ../../../manifests/argocd/apps/jenkins-operator/base
 - ../../../manifests/argocd/apps/letsencrypt-certs/base
-- github.com/85matthew/catalog/letsencrypt-certs/base
+#- github.com/85matthew/catalog/letsencrypt-certs/base
 - ../../../manifests/argocd/apps/namespace-configuration-operator/base
   #- ../../../manifests/argocd/apps/oauth/base
 - ../../../manifests/argocd/apps/pipelines-operator/base
