@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/85matthew/ocp-acme:latest
+        - image: quay.io/85matthew/oc-acme:latest
           env:
             - name: STAGING
               value: 'false'
