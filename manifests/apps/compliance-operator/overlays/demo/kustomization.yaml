@@ -8,7 +8,7 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 bases:
-  - github.com/85matthew/catalog/compliance-operator/4.7
+  - github.com/85matthew/catalog/compliance-operator/overlays/4.7
 #  - github.com/85matthew/catalog/installplan-approver/base
 
 resources:
