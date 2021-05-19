@@ -14,5 +14,3 @@ bases:
 resources:
   - demo-scan-setting.yaml
   - demo-scan-setting-binding.yaml
-  - namespace.yaml
-  - operator-group.yaml
