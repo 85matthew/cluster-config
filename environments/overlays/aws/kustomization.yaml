@@ -12,7 +12,7 @@ bases:
 - ../../../manifests/argocd/apps/container-security-operator/base
 - ../../../manifests/argocd/apps/file-integrity-operator/base
 - ../../../manifests/argocd/apps/github-oath-integration/base
-- ../../../manifests/argocd/apps/grafana-operator/base
+#- ../../../manifests/argocd/apps/grafana-operator/base
 - ../../../manifests/argocd/apps/groups-and-membership/base
   #- ../../../manifests/argocd/apps/jenkins-operator/base
 - ../../../manifests/argocd/apps/letsencrypt-certs/base
