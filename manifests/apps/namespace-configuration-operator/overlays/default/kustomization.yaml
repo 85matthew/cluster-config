@@ -7,7 +7,7 @@ commonAnnotations:
 namespace: namespace-configuration-operator
 
 bases:
-  - github.com/85matthew/catalog/namespace-configuration-operator/base
+  - github.com/85matthew/catalog/namespace-configuration-operator/overlays/default
 
 resources:
 - namespace.yaml
