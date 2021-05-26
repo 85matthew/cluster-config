@@ -14,10 +14,10 @@ bases:
 - ../../../manifests/argocd/apps/github-oath-integration/base
 #- ../../../manifests/argocd/apps/grafana-operator/base
 - ../../../manifests/argocd/apps/groups-and-membership/base
-  #- ../../../manifests/argocd/apps/jenkins-operator/base
+#- ../../../manifests/argocd/apps/jenkins-operator/base
 - ../../../manifests/argocd/apps/letsencrypt-certs/base
 - ../../../manifests/argocd/apps/namespace-configuration-operator/base
-  #- ../../../manifests/argocd/apps/oauth/base
+#- ../../../manifests/argocd/apps/oauth/base
 - ../../../manifests/argocd/apps/pipelines-operator/base
 - ../../../manifests/argocd/apps/prometheus-user-app/base
 - ../../../manifests/argocd/apps/sealed-secrets-operator/base
@@ -32,7 +32,7 @@ bases:
 #- ../../../manifests/argocd/apps/cluster-logging-operator/base
 #- ../../../manifests/argocd/apps/cluster-logging-config/base
 
-Migrated from IAM role to AWS cred to simplify.
+#Migrated from IAM role to AWS cred to simplify.
 #patches:
 #- target:
 #    group: argoproj.io
