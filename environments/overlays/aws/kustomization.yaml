@@ -32,10 +32,9 @@ bases:
 #- ../../../manifests/argocd/apps/cluster-logging-operator/base
 #- ../../../manifests/argocd/apps/cluster-logging-config/base
 
-#Migrated from IAM role to AWS cred to simplify.
-#patches:
-#- target:
-#    group: argoproj.io
-#    version: v1alpha1
-#    kind: Application
-#  path: patch-application.yaml
+patches:
+- target:
+    group: argoproj.io
+    version: v1alpha1
+    kind: Application
+  path: patch-application.yaml
