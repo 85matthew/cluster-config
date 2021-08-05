@@ -4,6 +4,7 @@ kind: Kustomization
 namespace: argocd
 
 bases:
+- ../../../manifests/argocd/apps/acs-security/base
 - ../../../manifests/argocd/apps/alertmanager/base
 - ../../../manifests/argocd/apps/aws-iam-integration/base
 - ../../../manifests/argocd/apps/codeready-operator/base
