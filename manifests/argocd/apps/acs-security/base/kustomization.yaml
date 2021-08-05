@@ -1,6 +1,5 @@
-kind: Kustomization
 apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 
-# Remote base.  Use the configuration from the Red Hat Canada GitOps repo (unofficial).
-bases:
-  - https://github.com/redhat-canada-gitops/catalog/acs-operator/overlays/aggregate-minimal
+resources:
+  - acs-security.yaml
